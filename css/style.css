@@ -123,7 +123,7 @@ header #navigation nav .login.active{
 
 /*banner part ends*/
 
-
+/*software part starts*/
 #software{
     min-height:90%;
     background: url(../images/cartoon.png)no-repeat 0% 100%;
@@ -133,446 +133,67 @@ header #navigation nav .login.active{
 #software .container .soft_img{
     margin-left: -122px;
 }
-
-
-
-
-
-
-
-
-/*pricing part starts*/
-#pricing{
-    background: #E5E5E5;
-}
-#pricing .container h2{
-    font-size: 40px;
+#software .container .text .header{
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
     font-weight: 400;
-    color: #000;
-    padding-bottom: 25px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    position: relative;
-    display: inline-block;
+    padding-top: 135px;
 }
-#pricing .container h2:after{
-    position: absolute;
-    content: '';
-    width: 100px;
-    height: 3px;
-    background: #1CBD9D;
-    left: 50%;
-    bottom: 50px;
-    transform: translate(-50%);
-}
-#pricing .container p{
-    font-size: 15px;
-    color: #fff;
-    font-family: montserrat_bold;
-    font-weight: 300;
-    padding-bottom: 25px;
-}
-#pricing .container .pricing_basic{
-    background: white;
-    border-radius: 15px;
-    margin-bottom: 70px;
-    margin-left: 20px;
-    margin-right: 35px;
-    transition: all linear 0.3s;
-}
-#pricing .container .pricing_basic:hover{
-    position: inherit;
-    margin-top: 10px;
-    background: #1CBD9D;
-    color: #fff;
-}
-#pricing .container .pricing_basic a{
-    color: #1CBD9D;
-    font-size: 16px;
-    padding-left: 30px;
-    margin-top: 20px;
-}
-#pricing .container .pricing_basic a:hover{
-    color: #fff;
-}
-#pricing .container .pricing_basic span{
-    margin-top: 20px;
-}
-#pricing .container .pricing_basic .price span{
-    padding-top: 20px;
-}
-#pricing .container .pricing_basic .price{
-    background: #1CBD9D;
-    border-radius: 15px;
-}
-#pricing .container .pricing_basic .price p{
-    text-transform: uppercase;
-}
-#pricing .container .pricing_basic .price h3{
-    font-size: 30px;
-    font-weight: 600;
-    color: #fff;
-    padding-bottom: 10px;
+#software .container .text .p_graph{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
     padding-top: 15px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
+    padding-bottom: 50px;
 }
-#pricing .container .pricing_basic button{
-    border: none;
+#software .container .text a{
     background: #1CBD9D;
-    padding: 12px 70px;
-    margin-bottom: 20px;
-    margin-left: 28px;
+    padding: 10px 12px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+#software .container .text span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+/*software part ends*/
+
+
+/*service part starts*/
+
+#service .container .service{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 52px;
+    font-weight: 300;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+#service .container .part_one{
+    background: #1CBD9D;
     border-radius: 10px;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 400;
+}
+#service .container .part_one a{
+    background: #fff;
+    margin-top: 15px;
+    padding: 15px 15px;
+    border-radius: 50%;
+}
+#service .container .part_one .service_part{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
     color: #fff;
-    border: 2px solid #fff;
-    transition: all linear 0.3s;
-}
-#pricing .container .pricing_basic button:hover{
-    background: white;
-    color: #1CBD9D;
-    border: 2px solid #1CBD9D;
-}
-/*pricing part ends*/
-
-/*amazing part starts*/
-#amazing{
-    background-color: #FCFCFC;
-}
-#amazing .container{
-    background-color: #FCFCFC;
-} 
-#amazing .container .img .amz_img1{
-    position: absolute; 
-    height: 162px;
-    top: -19%;
-    left: 31%;
-} 
-#amazing .container .img .amz_img2{
-    height: 400px;
-} 
-#amazing .container .img .amz_img3{
-    position: absolute;
-    height: 400px;
-    margin-top: 70px;
-    margin-left: 5px;
-}  
-#amazing .container .img .amz_img4{
-    position: absolute;
-    height: 114px;
-    top: 79%;
-    left: 20%;
-}
-#amazing .container .text h1{
-    font-size: 40px;
-    font-weight: 600;
-    color: black;
-    padding-bottom: 25px;
-    padding-top: 200px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    padding-left: 40px;
-}
-#amazing .container .text{
-    margin-left: 0px;
-}
-#amazing .container .text .icon_part1{
-    background: #47D4B8;
-    margin-left: 40px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    border-radius: 10px;    
-    float: left;
-}
-#amazing .container .text .icon_part1 a{
-    padding-left: 30px;
-    font-size: 30px;
-    color: white;
-}
-#amazing .container .text .icon_part1 span{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
-}
-#amazing .container .text .icon_part2{
-    background: #785CDC;
-    margin-left: 20px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    border-radius: 10px;    
-    float: left;
-}
-#amazing .container .text .icon_part2 a{
-    padding-left: 35px;
-    font-size: 30px;
-    color: white;
-}
-#amazing .container .text .icon_part2 span{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
-}
-#amazing .container .text .icon_part3{
-    background: #4C89D7;
-    margin-left: 20px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    border-radius: 10px;    
-    float: left;
-}
-#amazing .container .text .icon_part3 a{
-    padding-left: 40px;
-    font-size: 30px;
-    color: white;
-}
-#amazing .container .text .icon_part3 span{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
-}
-#amazing .container .text p{
-    padding-top: 10px;
-    padding-bottom: 50px; 
-    font-family: montserrat_bold;
-    font-weight: 300;
-    text-transform: capitalize;
-    font-size: 14px;
-    color: black;
-    padding-left: 40px;
-}
-
-#amazing .container .text button{
-    border: none;
-    background: #303030;
-    padding: 12px 80px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-    margin-left: 40px;
-    text-transform: uppercase;
-}
-#amazing .container .text2 h1{
-    font-size: 40px;
-    font-weight: 600;
-    color: #fff;
-    padding-bottom: 25px;
-    padding-top: 320px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    padding-left: 40px;
-}
-#amazing .container .text2 p{
-    padding-top: 10px;
-    padding-bottom: 50px; 
-    font-family: montserrat_bold;
-    font-weight: 300;
-    text-transform: capitalize;
-    font-size: 15px;
-    color: #fff;
-    padding-left: 40px;
-}
-#amazing .container .text2 button{
-    border: none;
-    background: #303030;
-    padding: 12px 80px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-    margin-left: 40px;
-    text-transform: uppercase;
-}
-/*amazing part ends*/
-
-
-#details{
-    /* background: url(../images/Ellipse.png)no-repeat; */
-    
-}
-#details .container{
-    background: url(../images/Ellipse_half.png)no-repeat;
-    margin-top: 120px;
-    padding-bottom: 120px;
-}
-#details .container .image{
-    float: left;
-}
-#details .container .profile img{
-    /* height: 450px; */
-    padding-top: 50px;
-    padding-bottom: 50px;  
-}
-#details .container .image .img1{
-    height: 55px;
-    padding-left: 125px;
-    margin-top: 75px;
-}
-#details .container .image .img1{
-    position: relative;
-    animation-name: mymove;
-    animation-duration: 4s;
-  } 
-  @keyframes mymove {
-      from {left: 10%;}
-      to {left: 0%;}
-  }
-#details .container .image .img2{
-    height: 55px;
-    padding-left: 175px;
-    margin-top: 50px;
-}
-#details .container .image .img2{
-    position: relative;
-    animation-name: mymove;
-    animation-delay: .25s;
-    animation-duration: 4s;
-  } 
-  @keyframes mymove {
-      from {left: 10%;}
-      to {left: 0%;}
-  }
-#details .container .image .img3{
-    height: 55px;
-    padding-left: 225px;
-    margin-top: 50px;
-}
-#details .container .image .img3{
-    position: relative;
-    animation-name: mymove;
-    animation-delay: .75s;
-    animation-duration: 4s;
-  } 
-  @keyframes mymove {
-      from {left: 10%;}
-      to {left: 0%;}
-  }
-#details .container .image .img4{
-    height: 55px;
-    padding-left: 175px;
-    margin-top: 50px;
-}
-#details .container .image .img4{
-    position: relative;
-    animation-name: mymove;
-    animation-delay: 1s;
-    animation-duration: 4s;
-  } 
-  @keyframes mymove {
-      from {left: 10%;}
-      to {left: 0%;}
-  }
-#details .container .image .img5{
-    height: 55px;
-    padding-left: 125px;
-    margin-top: 50px;
-}
-#details .container .image .img5{
-    position: relative;
-    animation-name: mymove;
-    animation-delay: 1.25s;
-    animation-duration: 4s;
-  } 
-  @keyframes mymove {
-      from {left: 10%;}
-      to {left: 0%;}
-  }
-
-/*footer part ends*/
-#footer{
-    background-color: #2F2F2F;
-}
-#footer .container .left p{
-    text-transform: capitalize;
-    color: white;
-    font-family: montserrat;
-    font-size: 16px;
-    font-weight: 400;
     padding-top: 25px;
-    padding-bottom: 25px;
+    font-weight: 200;
 }
-#question .container img{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+/*service part ends*/
 
 
+/*service part starts*/
+/*service part ends*/
 
-#question .container .text1 h1{
-    padding-top: 50px;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    font-family: montserrat_bold;
-    font-size: 30px;
-    font-weight: 600;
-}
-#question .container .text1 h2{
-    text-transform: uppercase;
-    font-family: montserrat_bold;
-    border: 1px solid #1CBD9D;
-}
-#question .container .text1 .accordion-item{
-    border: 1px solid #1CBD9D;
-}
-#question .container .text1 #accordion .first h6{
-    color: #000;
-    font-family: montserrat;
-    font-weight: 500;
-}
-#question .container .text1 #accordion .first button{
-    border: 0px;
-}
-.accordion-button:focus {
-    z-index: 3;
-/*    border-color: #86b7fe;*/
-    /* outline: 0; */
-    /* box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%); */
-}
-#contact .container .content{
-    background: #1CBD9D;
-    margin-top: 250px;
-    border-radius: 20px;
-}
-#contact .container .content .img{
-    float: left;
-}
-#contact .container .content .img img{
-    margin-top: -200px;
-}
-#contact .container .content .text{
-    float: left;
-}
-#contact .container .content .text h2{
-    color: #fff;
-    font-family: montserrat_bold;
-    font-weight: 600;
-    padding-left: 25px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-#contact .container .content .text form{
-    
-    padding-left: 10px;
-}
-#contact .container .content .text form .form-control{
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-input.form-control.input{
-    padding-left: 10px;
-    padding-right: 100px;
-}
-button.btn.btn-primary.mb-2 {
-    margin-left: -85px;
-}
 
 #footer .container .right{
     float: right;
