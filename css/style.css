@@ -175,6 +175,7 @@ header #navigation nav .login.active{
     background: #1CBD9D;
     border-radius: 10px;
     margin-right: 20px;
+    
 }
 #service .container .part_one a{
     background: #fff;
@@ -248,7 +249,6 @@ header #navigation nav .login.active{
     margin-left: 20px;
     margin-right: 10px;
 }
-
 #service .container .part_three{
     background: #1CBD9D;
     border-radius: 10px;
@@ -289,9 +289,110 @@ header #navigation nav .login.active{
 /*service part ends*/
 
 
-/*service part starts*/
-/*service part ends*/
+/*work part starts*/
+#work .container .work_header{
+    font-family: 'Rubik', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#work .container .work_text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+#work .container .step_one{
+    background: #FFD9AD;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+#work .container .step_one .work_step{
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+#work .container .step_one .step_desc{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
 
+#work .container .step_three{
+    background: #FFD9AD;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+#work .container .step_three .work_step{
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+#work .container .step_three .step_desc{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+#work .container .step_two{
+    background: #FFD9AD;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+#work .container .step_two .work_step{
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+#work .container .step_two .step_desc{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+#work .container .step_four{
+    background: #FFD9AD;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#work .container .step_four .work_step{
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+#work .container .step_four .step_desc{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+#work .container img{
+    margin-left: 15px;
+}
+/*work part ends*/
+
+
+
+
+
+/*work part starts*/
+/*work part ends*/
 
 #footer .container .right{
     float: right;
