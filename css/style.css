@@ -321,7 +321,6 @@ header #navigation nav .login.active{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
-
 #work .container .step_three{
     background: #FFD9AD;
     border-radius: 20px;
@@ -367,6 +366,7 @@ header #navigation nav .login.active{
     border-radius: 20px;
     margin-top: 30px;
     margin-left: 15px;
+    margin-bottom: 80px;
 }
 #work .container .step_four .work_step{
     padding-top: 50px;
@@ -387,7 +387,50 @@ header #navigation nav .login.active{
 }
 /*work part ends*/
 
+/*portfolio part starts*/
+#portfolio .container .portfolio{
+    text-align: center;
+    color: #FF872E;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+#portfolio .container .our_work{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+div #gallery-menu {
+    margin-left: 250px;
+}
+ul#gallery {
+    margin-left: 105px;
+}
+a.btn.btn-warning {
+    background: none;
+    border-radius: 20px;
+    border: 2px solid #FF872E;
+    margin-left: 15px;
+    font-family: 'Rubik', sans-serif;
+    transition: all linear 0.3s;
+}
+a.btn.btn-warning:hover{
+    background: #FF872E;
+    color: #fff;
+}
+.btn-primary {
+    color: #000;
+    background-color: #FF872E;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    /* border-color: #007bff; */
+}
 
+/*portfolio part ends*/
 
 
 
