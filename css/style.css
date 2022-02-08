@@ -402,7 +402,7 @@ header #navigation nav .login.active{
     text-transform: capitalize;
     font-weight: 600;
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 div #gallery-menu {
     margin-left: 250px;
@@ -429,13 +429,55 @@ a.btn.btn-warning:hover{
     font-family: 'Rubik', sans-serif;
     /* border-color: #007bff; */
 }
-
 /*portfolio part ends*/
 
+/*contact part starts*/
+#contact .container .contact{
+    text-align: center;
+    color: #FF872E;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+#contact .container .contact_text{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#contact .container .form .name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 115px;
+    border-radius: 10px;
+    margin-right: 17px;
+    margin-bottom: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+#contact .container .form .email{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 115px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+#contact .container .form .textarea{
+    font-family: 'Rubik', sans-serif;
+    padding-left: 40px;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+/*contact part ends*/
 
-
-/*work part starts*/
-/*work part ends*/
+/*contact part starts*/
+/*contact part ends*/
 
 #footer .container .right{
     float: right;
