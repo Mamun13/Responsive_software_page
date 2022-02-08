@@ -174,19 +174,117 @@ header #navigation nav .login.active{
 #service .container .part_one{
     background: #1CBD9D;
     border-radius: 10px;
+    margin-right: 20px;
 }
 #service .container .part_one a{
     background: #fff;
     margin-top: 15px;
+    margin-left: 20px;
     padding: 15px 15px;
     border-radius: 50%;
 }
-#service .container .part_one .service_part{
+#service .container .part_one .service_head{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    padding-top: 25px;
+    margin-left: 20px;
+    font-weight: 200;
+}
+#service .container .part_one .service_head:after{
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background:  #fff;
+    left: 6%;
+    bottom: 144px;
+}
+#service .container .part_one .web_text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 45px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 50px;
+}
+#service .container .part_two{
+    background: #1CBD9D;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#service .container .part_two a{
+    background: #fff;
+    margin-top: 15px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#service .container .part_two .service_head{
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     color: #fff;
     padding-top: 25px;
     font-weight: 200;
+    margin-left: 20px;
+}
+#service .container .part_two .service_head:after{
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background:  #fff;
+    left: 8%;
+    bottom: 144px;
+}
+#service .container .part_two .web_text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#service .container .part_three{
+    background: #1CBD9D;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#service .container .part_three a{
+    background: #fff;
+    margin-top: 15px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#service .container .part_three .service_head{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    padding-top: 25px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+#service .container .part_three .service_head:after{
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background:  #fff;
+    left: 8%;
+    bottom: 144px;
+}
+#service .container .part_three .web_text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    margin-left: 20px;
 }
 /*service part ends*/
 
