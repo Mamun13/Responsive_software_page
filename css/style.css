@@ -82,9 +82,17 @@ header #navigation nav .login.active{
 }
 #banner .container h1{
     font-size: 60px;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
+/* #banner .container h1 {
+    position: relative;
+    animation-name: header_text;
+    animation-duration: 4s;
+} 
+@keyframes header_text {
+    from {top: 10%;}
+    to {top: 0%;}
+}  */
 #banner .container button{
     font-size: 16px;
     color: #fff;
@@ -106,6 +114,15 @@ header #navigation nav .login.active{
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
 }
+#banner .container .descrip {
+    position: relative;
+    animation-name: descrip;
+    animation-duration: 3s;
+} 
+@keyframes descrip {
+    from {bottom: 10%;}
+    to {bottom: 0%;}
+} 
 #banner .container .descrip strong{
     font-family: 'Rubik', sans-serif;
     font-size: 50px;
@@ -432,6 +449,13 @@ a.btn.btn-warning:hover{
 /*portfolio part ends*/
 
 /*contact part starts*/
+#contact {
+    background: #FCFCFC;
+    min-height: 90%;
+    background: #fff url(../images/Ornament.png) no-repeat -7% 154%;
+    width: 100%;
+    overflow: hidden;
+}
 #contact .container .contact{
     text-align: center;
     color: #FF872E;
@@ -474,7 +498,19 @@ a.btn.btn-warning:hover{
     padding-left: 40px;
     padding-top: 15px;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+}
+#contact .container .form .submit{
+    background: #FF872E;
+    border-radius: 10px;
+    padding: 15px 35px;
+    color: white;
+    margin-bottom: 40px;
+    transition: all linear 0.3s;
+    font-family: 'Rubik', sans-serif;
+}
+#contact .container .form .submit:hover{
+    color: #000;
 }
 /* #contact .container .form .mapouter .gmap_canvas{
 
@@ -495,28 +531,111 @@ a.btn.btn-warning:hover{
 }
 /*contact part ends*/
 
-/*contact part starts*/
-/*contact part ends*/
-
-#footer .container .right{
-    float: right;
-    margin-top: 25px;
+/*footer part starts*/
+#footer{
+    background: #2D2E34;
+}
+#footer .container .first_part .footer_logo{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    padding-top: 100px;
 } 
-#footer .container .right .border{
-    padding: 9px 14px;
-    border: 1px solid #858585;
+#footer .container .first_part .footer_text{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 50px;
+    font-size: 15px;
+    margin-bottom: 50px;
+} 
+#footer .container .first_part a{
+    color: #CB72EE;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
-#footer .container .right .border:hover{
-    background: #1CBD9D;
+#footer .container .first_part a i{
+    margin-bottom: 20px;
 }
-#footer .container .right a{
-    color: white;
-    border: 1px solid #858585;
-    padding: 10px 10px;
+#footer .container .first_part span{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 15px;
+}
+#footer .container .sec_part .services{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+#footer .container .sec_part ul{
+    padding-bottom: 120px;
+}
+#footer .container .sec_part ul li{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+} 
+#footer .container .three_part .about{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+#footer .container .three_part ul{
+    padding-bottom: 120px;
+}
+#footer .container .three_part ul li{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#footer .container .four_part .address{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+#footer .container .four_part .address_p{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+#footer .container .four_part .facebook{
+    color: #DBDBDB;
+    font-size: 20px;
+    border: 1px solid #DBDBDB;
+    padding: 15px 20px;
     border-radius: 50%;
     transition: all linear 0.3s;
+    margin-right: 10px;
 }
-#footer .container .right a:hover{
+#footer .container .four_part .facebook:hover{
+    background: #1CBD9D;
+    border: 1px solid #1CBD9D;
+}
+#footer .container .four_part a{
+    color: #DBDBDB;
+    font-size: 20px;
+    border: 1px solid #DBDBDB;
+    padding: 15px 15px;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    margin-right: 10px;
+}
+#footer .container .four_part a:hover{
     background: #1CBD9D;
     border: 1px solid #1CBD9D;
 }
