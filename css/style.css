@@ -101,7 +101,7 @@ header #navigation nav .login.active{
     border: none;
     background-color: #FF872E;
     padding: 15px 35px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     border: 1px solid #FF872E;
     border-radius: 5px;
     transition: all linear 0.3s;
@@ -148,8 +148,17 @@ header #navigation nav .login.active{
     overflow:hidden;
 }
 #software .container .soft_img{
-    margin-left: -122px;
+    margin-left: -80px;
 }
+#software .container .soft_img {
+    position: relative;
+    animation-name: soft_img;
+    animation-duration: 3s;
+} 
+@keyframes soft_img {
+    from {right: 10%;}
+    to {right: 0%;}
+} 
 #software .container .text .header{
     font-family: 'Rubik', sans-serif;
     font-size: 34px;
@@ -191,8 +200,16 @@ header #navigation nav .login.active{
 #service .container .part_one{
     background: #1CBD9D;
     border-radius: 10px;
-    margin-right: 20px;
-    
+    margin-right: 20px; 
+}
+#service .container .part_one {
+    position: relative;
+    animation-name: part_one;
+    animation-duration: 3s;
+} 
+@keyframes part_one {
+    from {right: 10%;}
+    to {right: 0%;}
 }
 #service .container .part_one a{
     background: #fff;
@@ -270,6 +287,15 @@ header #navigation nav .login.active{
     background: #1CBD9D;
     border-radius: 10px;
     margin-left: 20px;
+}
+#service .container .part_three {
+    position: relative;
+    animation-name: part_three;
+    animation-duration: 3s;
+} 
+@keyframes part_three {
+    from {left: 10%;}
+    to {left: 0%;}
 }
 #service .container .part_three a{
     background: #fff;
@@ -402,6 +428,15 @@ header #navigation nav .login.active{
 #work .container img {
     width: 505px;
 }
+#work .container img{
+    position: relative;
+    animation-name: work_img;
+    animation-duration: 3s;
+} 
+@keyframes work_img {
+    from {top: 10%;}
+    to {top: 0%;}
+}
 /*work part ends*/
 
 /*portfolio part starts*/
@@ -452,9 +487,10 @@ a.btn.btn-warning:hover{
 #contact {
     background: #FCFCFC;
     min-height: 90%;
-    background: #fff url(../images/Ornament.png) no-repeat -7% 154%;
+    background: #fff url(../images/Ornament.png) no-repeat -1% 700%;
     width: 100%;
     overflow: hidden;
+    background-size: 1164px;
 }
 #contact .container .contact{
     text-align: center;
@@ -476,22 +512,24 @@ a.btn.btn-warning:hover{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 40px;
-    padding-right: 115px;
+    padding-right: 118px;
     border-radius: 10px;
     margin-right: 17px;
     margin-bottom: 25px;
     margin-top: 30px;
     font-family: 'Rubik', sans-serif;
+    border-color: #DBDBDB;
 }
 #contact .container .form .email{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 40px;
-    padding-right: 115px;
+    padding-right: 118px;
     border-radius: 10px;
     margin-bottom: 25px;
     margin-top: 30px;
     font-family: 'Rubik', sans-serif;
+    border-color: #DBDBDB;
 }
 #contact .container .form .textarea{
     font-family: 'Rubik', sans-serif;
@@ -499,6 +537,7 @@ a.btn.btn-warning:hover{
     padding-top: 15px;
     border-radius: 10px;
     margin-bottom: 25px;
+    border-color: #524e4e;
 }
 #contact .container .form .submit{
     background: #FF872E;
@@ -511,6 +550,11 @@ a.btn.btn-warning:hover{
 }
 #contact .container .form .submit:hover{
     color: #000;
+}
+#contact .container .form textarea{
+    font-family: 'Rubik', sans-serif;
+    padding-top: 15px;
+    padding-left: 40px;
 }
 /* #contact .container .form .mapouter .gmap_canvas{
 
