@@ -36,7 +36,10 @@ body {
     overflow-x: hidden;
     width: 100%;
     
-}   
+}  
+html{
+    scroll-behavior: smooth;
+} 
 /*header part ends*/
 
 
@@ -150,15 +153,6 @@ header #navigation nav .login.active{
 #software .container .soft_img{
     margin-left: -80px;
 }
-#software .container .soft_img {
-    position: relative;
-    animation-name: soft_img;
-    animation-duration: 3s;
-} 
-@keyframes soft_img {
-    from {right: 10%;}
-    to {right: 0%;}
-} 
 #software .container .text .header{
     font-family: 'Rubik', sans-serif;
     font-size: 34px;
